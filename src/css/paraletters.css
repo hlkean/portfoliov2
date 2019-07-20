@@ -1,0 +1,44 @@
+.paralax-container .scene {
+  z-index: 1;
+}
+
+.paralax-container .-top , .paralax-container .-middle {
+  /* font-size: 105px; */
+  color: var(--color-secondary);
+  z-index:0;
+  font-weight:700;
+  font-family: "Righteous", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: auto;
+  /* text-shadow: #000 0px 0px 10px; */
+}
+.paralax-container .-middle {
+  color: var(--color-primary);
+  z-index: 1;
+}
+.paralax-container .-base {
+  color: var(--color-tertiary);
+  /* font-size: 105px; */
+  margin:0;
+  position: absolute;
+  z-index:0;
+  font-weight: 900;
+  font-family: "Righteous", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.paralax-container #scene {
+  z-index:1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paralax-container {
+  display: flex;
+  flex-wrap:nowrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin:auto;
+  width: 100%;
+}

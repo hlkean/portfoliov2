@@ -1,0 +1,38 @@
+{
+    "sportsrecruits": {
+        "title": "SportsRecruits",
+        "logo": "sportsrecruits.jpg",
+        "images": [],
+        "clientContent": "<p>I currently work as a software engineer at SportsRecruits, a SaaS startup that allows student athletes to take the recruiting process into their own hands.</p><p>When I first started at SportsRecruits, there was little to no focus on analytics or SEO. I have since worked to not only raise awareness of these issues, but to rebuild and optimize pages so that we can track and grow our organic traffic. We have seen our organic traffic grow significantly which has directly lead to an increased in paid users and revenue for the company.</p><p>I have also worked to push our team towards a consolidated code base built with a single API and front-end that is structured based on a consistent design language and style guide. When I first started we had three different web frameworks (Ember.js, Vue.js, CodeIgniter)  with two different backend resources (CodeIgniter, and a Laravel based API). Now we are building a single front-end component library in Vue.js based on a style guide to decrease development time and the need for design QA. We are also our consolidating our backend resourced into a single Laravel API so that our code stays concise and in one place.</p>",
+        "siteUrl": "https://sportsrecruits.com/",
+        "layout": "-left",
+        "description": "At SportsRecruits, Henry Kean works as part of a product team, planning and building new features, running site maintenance, and improving existing features on a SaaS product. Using HTML, CSS/SCSS, javascript, PHP, MySQL, Vue.js, Ember.js, Laravel, and CodeIgniter."
+    },
+    "patron": {
+        "title": "Patrón Spirits Company",
+        "logo": "patron_sprits_company.jpg",
+        "images": [],
+        "clientContent": "<p>Working on a small, collaborative team of designers, copywriters, and engineers building and maintaining all of Patrón Spirit Company’s digital experiences, we were constantly tasked with coming up with new, engaging ideas and projects that could be built on time and under budget. These projects, including <a href='https://www.patrontequila.com/ask-patron.html' target='_blank'>multi-platform voice applications</a>, <a href='https://www.patrontequila.com/margarita-of-the-year/2017.html' target='_blank'>Patrón’s Margarita of the year</a>, and unique product landing pages such as the <a href='https://www.patrontequila.com/products/guillermo-del-toro.html' target='_blank'>Patrón x Guillermo del Toro bottle</a> helped Patrón to sell 2.5 million cases of tequila and grow to a $5.1 billion company.</p>",
+        "siteUrl": "https://www.patrontequila.com",
+        "layout": "",
+        "description": "As an experience engineer, Henry Kean worked on a small, collaborative team of designers, copywriters, and engineers building and maintaining all of Patrón Spirit Company’s digital experiences. Developing with SCSS, JSTL/JSP, jQuery, and Javascript"
+    },
+    "usaa": {
+        "title": "USAA",
+        "logo": "usaa.jpg",
+        "images": [],
+        "clientContent": "<p>USAA had recently hired Sapient.Razorfish to run their social media campaigns when I was approached to build a proof of concept for their <a href='https://communities.usaa.com/t5/Deployment-Blog/Show-Your-Support-This-Memorial-Day-by-Dedicating-a-Poppy/ba-p/121648' target='_blank'>interactive Memorial Day Poppy wall experience</a>. The proof of concept lead us to win the job, which required a 2 week turn around. Working with one other developer, while fully booked on another client, we were able to get it finished on time, under budget, and exceeding expectations; making close to a million social impressions and engagements reaching into the hundreds of thousands.</p>",
+        "siteUrl": "https://poppyinmemory.usaacloud.com/",
+        "layout": "-left",
+        "description": "Henry Kean was approached to build a proof of concept, and later a production-ready experience for USAA's interactive Memorial Day Poppy wall experience using HTML, SCSS, jQuery, and GSAP (Greensock Animation Plugin)."
+    },
+    "bog_bespoke": {
+        "title": "Bog Bespoke",
+        "logo": "bog_bespoke.jpg",
+        "images": [],
+        "clientContent": "<p>Bog Bespoke is an heirloom quality, bespoke furniture company based in Maine. I was asked to design and build a web presence for them that would serve as a place to display their work and take requests from new clients.</p><p>The two most important factors were price and the ability to add new content and pages without the need to write any code. To keep cost low I built the site using <a href='https://getgrav.org/' target='_blank'>Grav CMS</a>, a free flat file content management system with a large community so I had resources to turn to in case I encountered any issues or challenges along the way. I then chose to deploy the site using <a href='https://www.heroku.com/' target='_blank'>Heroku</a>. While this proved to be a more difficult route than using AWS or Google Cloud Platform, it wound up being the most cost effective solution (maximum $7/month) since I needed support for PHP and the potential to read and write to the server numerous times a month for content updates.</p><p>Working closely with Bog’s founder we were able to launch a site in roughly a month’s time, that met their financial needs and gave them the ability to freely update the sites content.</p>",
+        "siteUrl": "https://www.bogbespoke.com/",
+        "layout": "",
+        "description": "Henry Kean was asked to design and build a web presence for Bog Bespoke that would serve as a place to display their work and take requests from new clients. The site was built using Grav CMS, PHP, Javascript, Twig, and YAML."
+    }
+}

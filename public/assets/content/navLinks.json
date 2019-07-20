@@ -1,0 +1,26 @@
+{
+    "home": {
+        "title": "home",
+        "description": "Welcome",
+        "to": "/",
+        "exact": true
+    },
+    "about": {
+        "title": "about",
+        "description": "Who I Am",
+        "to": "/about",
+        "exact": false
+    },
+    "work": {
+        "title": "work",
+        "description": "What I Do",
+        "to": "/work",
+        "exact": false
+    },
+    "contact": {
+        "title": "contact",
+        "description": "Where I'm At",
+        "to": "/contact",
+        "exact": false
+    }
+}

@@ -1,0 +1,21 @@
+.client-info .client-img {
+    height: 400px;
+    /* background-size: contain; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: white;
+}
+
+.client-info .content {
+    padding: 20px;
+}
+
+.client-info .content a {
+    display: inline;
+    transition: all .2s ease-in;
+}
+.client-info .content a:hover {
+    background-color: white;
+    color: black;
+}
