@@ -6,7 +6,7 @@
   /* font-size: 105px; */
   color: var(--color-secondary);
   z-index:0;
-  font-weight:700;
+  font-weight:400;
   font-family: "Righteous", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: auto;
   /* text-shadow: #000 0px 0px 10px; */
@@ -21,7 +21,7 @@
   margin:0;
   position: absolute;
   z-index:0;
-  font-weight: 900;
+  font-weight: 400;
   font-family: "Righteous", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 

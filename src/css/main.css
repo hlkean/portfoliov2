@@ -5,60 +5,7 @@
 @import "/clientInfo.css";
 @import "/utils.css";
 
-@font-face {
-	font-family: 'Teko';
-	src: url('assets/typography/teko/Teko-Regular.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Teko';
-	src: url('assets/typography/teko/Teko-Bold.ttf') format('truetype');
-	font-weight: bolder;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Teko';
-	src: url('assets/typography/teko/Teko-Light.ttf') format('truetype');
-	font-weight: light;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Teko';
-	src: url('assets/typography/teko/Teko-Medium.ttf') format('truetype');
-	font-weight: lighter;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Teko';
-	src: url('assets/typography/teko/Teko-SemiBold.ttf') format('truetype');
-	font-weight: bolder;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Milan';
-	src: url('assets/typography/milan/Milan-Regular.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Cobalt';
-	src: url('assets/typography/cobalt/Cobalt27-Text.otf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Cobalt';
-	src: url('assets/typography/cobalt/Cobalt27-Bold.otf') format('truetype');
-	font-weight: bold;
-	font-style: normal;
-}
-
-@import url('https://fonts.googleapis.com/css?family=Righteous|Rubik+Mono+One&display=swap');
-
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&family=Righteous&display=swap');
 
 body {
   margin: 0;
@@ -91,6 +38,8 @@ code {
 h1, .h1 {
   font-size: 3rem;
   font-family: 'Righteous';
+  font-weight: 400;
+
 }
 
 h2, .h2 {
@@ -115,6 +64,7 @@ p, .p {
 
 a, .a {
 	font-family: 'Righteous';
+	font-weight: 400;
 }
 a {
     display: inline;
