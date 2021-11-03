@@ -1,11 +1,7 @@
-import { NavLink } from 'react-router-dom';
 import Parallax from 'parallax-js';
 import React from 'react';
 
 class Paraletters extends React.Component {
-    constructor(props) {
-        super(props);
-    }
 
     static defaultProps = {
         classes: '', 

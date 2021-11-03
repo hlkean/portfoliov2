@@ -11,9 +11,6 @@ function mapObject(object, callback) {
 }
 
 class Header extends React.Component {
-    constructor(props) {
-        super(props);
-    }
 
     render() {
       return (
@@ -21,7 +18,7 @@ class Header extends React.Component {
             {mapObject(links, function (index, link) {
 
                 return (
-                <li className="block">
+                <li className="block" key={index}>
                     <NavLink exact={link.exact} activeClassName='is-active' to={link.to}>
                         <span className="title">{link.title}</span>
                         <span className="description">{link.description}</span>

@@ -2,9 +2,6 @@ import { Link } from 'react-router-dom';
 import React from 'react';
 
 class WorkItem extends React.Component {
-    constructor(props) {
-        super(props);
-    }
 
     render() {
         let classes = 'work-item no-hover ' + this.props.client.layout;
