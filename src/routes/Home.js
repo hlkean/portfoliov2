@@ -36,10 +36,10 @@ class Home extends React.Component {
     }
     
     render() {
-        console.log("content::", this.state.content);
       return (
           <div>
             <Helmet>
+                <title>{`${this.state.content.title} | Henry Kean`}</title>
                 <meta name="description" content="Henry Kean is a software engineer based in Boston, Massachusetts." />
             </Helmet>
             <div className="home"> 
