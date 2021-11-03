@@ -242,6 +242,12 @@
 }.-p-x-25 {
     padding-top: 25px;
     padding-bottom: 25px;
+}.-p-y-50 {
+    padding-left: 50px;
+    padding-right: 50px;
+}.-p-x-50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }.-m-top-0 {
     margin-top: 0;
 }.-p-top-25 {

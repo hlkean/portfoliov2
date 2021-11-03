@@ -1,12 +1,21 @@
 {
+    "liberty": {
+        "title": "Liberty Mutual Insurance",
+        "logo": "liberty_mutual.jpeg",
+        "images": [],
+        "clientContent": "<p>As a consultant at Publicis Sapient, I work on a team building iOS and Android telematics applications for Liberty Mutual Insurance. Leveraging React Native, we are able to maintain a mono-repo which compiles to three different applications with various branding options.</p><p>As part of the team I continue to make our library of shared components cleaner and more robust and work to improve our interactions with the client controlled backend and third party native libraries. I have also strived to improve analytics and performance monitoring which has lead to an increase in app store ratings, decrease in customer service calls, and decrease in crash rates across all apps.</p>",
+        "siteUrl": "https://www.libertymutual.com/righttrack",
+        "layout": "",
+        "description": "At Publicis Sapient, Henry Kean works as part of a product consulting team for Liberty  Mutual's Telematics applicaitons, planning and building new features, maintaining and improving an existing component library, and making overall improvements to increase revenue and decrease customer service calls. Using React Native, Swift, Java, Apollo Client (GraphQL)."
+    },
     "sportsrecruits": {
         "title": "SportsRecruits",
         "logo": "sportsrecruits.jpg",
         "images": [],
-        "clientContent": "<p>I currently work as a software engineer at SportsRecruits, a SaaS startup that allows student athletes to take the recruiting process into their own hands.</p><p>When I first started at SportsRecruits, there was little to no focus on analytics or SEO. I have since worked to not only raise awareness of these issues, but to rebuild and optimize pages so that we can track and grow our organic traffic. We have seen our organic traffic grow significantly which has directly lead to an increased in paid users and revenue for the company.</p><p>I have also worked to push our team towards a consolidated code base built with a single API and front-end that is structured based on a consistent design language and style guide. When I first started we had three different web frameworks (Ember.js, Vue.js, CodeIgniter)  with two different backend resources (CodeIgniter, and a Laravel based API). Now we are building a single front-end component library in Vue.js based on a style guide to decrease development time and the need for design QA. We are also our consolidating our backend resourced into a single Laravel API so that our code stays concise and in one place.</p>",
+        "clientContent": "<p>SportsRecruits is a SaaS startup that allows student athletes to take the recruiting process into their own hands.</p><p>When I first started at SportsRecruits, there was little to no focus on analytics or SEO. During my time with the company I worked to not only raise awareness of these issues, but to rebuild and optimize pages so that it could track and grow its organic traffic. It saw its organic traffic grow significantly which directly lead to an increase in paid users and revenue for the company.</p><p>I also worked to push the team towards a consolidated code base built with a single API and front-end that was structured based on a consistent design language and style guide. When I first started there were three different web frameworks (Ember.js, Vue.js, CodeIgniter)  with two different backend resources (CodeIgniter, and a Laravel based API). Now it is building a single front-end component library in Vue.js based on a style guide to decrease development time and the need for design QA. The team also consolidated its backend resources into a single Laravel API so that the code would stay concise and in one place.</p>",
         "siteUrl": "https://sportsrecruits.com/",
         "layout": "-left",
-        "description": "At SportsRecruits, Henry Kean works as part of a product team, planning and building new features, running site maintenance, and improving existing features on a SaaS product. Using HTML, CSS/SCSS, javascript, PHP, MySQL, Vue.js, Ember.js, Laravel, and CodeIgniter."
+        "description": "At SportsRecruits, Henry Kean worked as part of a product team, planning and building new features, running site maintenance, and improving existing features on a SaaS product. Stack used: HTML, CSS/SCSS, javascript, PHP, MySQL, Vue.js, Ember.js, Laravel, and CodeIgniter."
     },
     "patron": {
         "title": "Patrón Spirits Company",
