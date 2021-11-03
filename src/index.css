@@ -148,10 +148,6 @@
 }.work-item:first-of-type {
   box-shadow: none;
   margin-top: 0;
-}@media screen and (min-width: 769px) {
-  .work-item:first-of-type {
-    /* margin-top: 0; */
-  }
 }.work-item h2 {
   flex-basis: 100%;
   margin: 0 auto;
