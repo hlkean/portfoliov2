@@ -1,10 +1,9 @@
-import React, { Suspense, lazy } from 'react';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import React from 'react';
 import WorkItem from '../Components/WorkItem';
 import Paraletters from '../Components/Paraletters';
 import {Helmet} from "react-helmet";
 const assets = require.context('../../public/assets');
-const Clients = assets('./content/content.json');
+const Clients = assets('./content/clientContent.json');
 
 function mapObject(object, callback) {
     return Object.keys(object).map(function (key) {
