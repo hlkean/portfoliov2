@@ -3,11 +3,10 @@ import React, { Suspense, lazy } from 'react';
 import Header from './Components/Header';
 const Home = lazy(() => import('./routes/Home'));
 const Contact = lazy(() => import('./routes/Contact'));
-// const About = lazy(() => import('./routes/About'));
 const Work = lazy(() => import('./routes/Work'));
 const ClientInfo = lazy(() => import('./routes/ClientInfo'));
 
-function App() {
+const App = () => {
   return (
   <Router>
       <Header />

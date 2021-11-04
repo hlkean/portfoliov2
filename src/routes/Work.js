@@ -2,7 +2,7 @@ import React from 'react';
 import WorkItem from '../Components/WorkItem';
 import Paraletters from '../Components/Paraletters';
 import {Helmet} from "react-helmet";
-const assets = require.context('../../public/assets');
+const assets = require.context('../assets');
 const Clients = assets('./content/clientContent.json');
 
 function mapObject(object, callback) {

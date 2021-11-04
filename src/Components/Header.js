@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import React from 'react';
-const assets = require.context('../../public/assets');
+const assets = require.context('../assets');
 const links = assets('./content/navLinks.json');
 // const Jobs = lazy(() => import('./routes/Jobs'));
 

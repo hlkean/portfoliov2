@@ -1,7 +1,7 @@
 import React from 'react';
 import Paraletters from '../Components/Paraletters';
 import {Helmet} from "react-helmet";
-const assets = require.context('../../public/assets');
+const assets = require.context('../assets');
 const copy = assets('./content/aboutContent.json');
 
 
@@ -36,6 +36,12 @@ class Home extends React.Component {
     }
     
     render() {
+        const RenderSub = () => {
+            if(this.state.content.sub) { 
+                return <Paraletters id="lax-name" tag="h3" letters={this.state.content.sub} limitX="50" limitY="40"/>;
+            }
+            return null;
+        }
       return (
           <div>
             <Helmet>
@@ -45,7 +51,7 @@ class Home extends React.Component {
             <div className="home"> 
                 <div className="letters">
                     <Paraletters id="lax-header" tag="h1" letters={this.state.content.header} limitX="50" limitY="40"/>
-                    {this.state.content.sub && <Paraletters id="lax-name" tag="h3" letters={this.state.content.sub} limitX="50" limitY="40"/>}
+                    <RenderSub />
                 </div>
                 <div className="bg-img">
                 </div>

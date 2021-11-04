@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Paraletters from '../Components/Paraletters';
 import {Helmet} from "react-helmet";
-const assets = require.context('../../public/assets');
+const assets = require.context('../assets');
 const Clients = assets('./content/clientContent.json');
 
 class ClientInfo extends React.Component {

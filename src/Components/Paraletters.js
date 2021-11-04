@@ -21,7 +21,6 @@ class Paraletters extends React.Component {
         let secondaryClass = Tag + ' -top -full-width';
         let tertiaryClass = Tag + ' -middle -full-width';
         return (
-            // data-hover-only="true"
         <div className={"paralax-container " + this.props.classes}>
             <div id={this.props.id} className="-full-width scene" data-relative-input="true" data-calibrate-x="true" data-calibrate-y="true" data-limit-x={this.props.limitX} data-limit-y={this.props.limitY} data-scalar-x="100" data-scalar-y="100">
                 <span className={secondaryClass} data-depth=".2">{this.props.letters}</span>    

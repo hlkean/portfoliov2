@@ -52,13 +52,13 @@
 }
 
 .-p-y-50 {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .-p-x-50 {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .-m-top-0 {
@@ -120,5 +120,15 @@
 
     .-txt-img-50-50 img {
         flex-basis: 50%;
+    }
+
+    .-p-y-50 {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+    .-p-x-50 {
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 }
